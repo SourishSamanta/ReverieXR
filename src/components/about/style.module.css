@@ -1,0 +1,73 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(20, 11, 59);
+    color: white;
+    
+
+}
+
+.hero{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center
+}
+
+.content{
+    
+    height: 70%;
+    width: 50vw;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10%;
+}
+
+.content button{
+    background-color: aqua;
+    border-radius: 10px;
+    height: 30px;
+    border:  none;
+    font-weight: 800;
+    width: 200px;
+}
+
+
+
+
+
+.textHolder{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.headline{
+    line-height: 52px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color:rgb(250, 92, 255);
+
+}
+
+.subhead{
+    line-height: 20px;
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.webglContainer{
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+.webglContainer img{
+    height: 80vh;
+}
