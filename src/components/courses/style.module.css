@@ -1,0 +1,37 @@
+.container{
+    height: 19vw;
+    width: 18vw;
+    border: 2px solid #7D00C0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    
+    
+
+}
+
+.img{
+    height: 65%;
+    width: 100%;
+    
+    overflow: hidden;
+    border: none;
+    display: flex;
+    
+}
+
+.img img{
+    object-fit:cover;
+    
+}
+
+
+.dets{
+    height: 35%;
+    width: 100%;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}

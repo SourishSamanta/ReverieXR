@@ -2,16 +2,24 @@ import React from "react";
 import styles from "./style.module.css";
 import Nav from "../nav/nav";
 import model2 from "../../assets/model2.png"
+import { motion } from "framer-motion";
 
 
 function About() {
+    
     return (
         
-        <div className={styles.main}>
+        <motion.div
+            
+        className={styles.main}>
             <Nav />
             <div className={styles.hero}>
                 <div className={styles.content}>
-                    <div className={styles.textHolder}>
+                    <motion.div
+                        initial={{ opacity: 0, x: -100 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 1, delay: 0.5 }}
+                    className={styles.textHolder}>
                         <div className={styles.headline}>
                             <h1>ABOUT US</h1>
                         </div>
@@ -52,13 +60,17 @@ function About() {
                                 innovation, and learning knows no bounds.
                             </h6>
                         </div>
-                    </div>
-                    <div className={styles.webglContainer}>
+                    </motion.div>
+                    <motion.div 
+                        initial={{ opacity: 0, x: 100 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.5, }}
+                    className={styles.webglContainer}>
                         <img src={model2} alt="" />
-                    </div>
+                    </motion.div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 }
 

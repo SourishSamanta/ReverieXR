@@ -10,9 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^11.0.6",
+    "gsap": "^3.12.5",
+    "keep-react": "^1.1.2",
     "kute.js": "^2.2.4",
+    "rc-progress": "^3.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
     "react-router-dom": "^6.22.1"
   },
   "devDependencies": {
