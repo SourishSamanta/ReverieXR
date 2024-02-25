@@ -13,7 +13,7 @@ function Subscription() {
                 <div className={styles.container}>
                     <SubCard level="Basic" price="599/-"/>
                     <SubCard level="Pro" price="899/-"/>
-                    <SubCard level="Master" price="2999/-"/>
+                    <SubCard level="Master" price="1599/-"/>
                 </div>
                 
             </div>
