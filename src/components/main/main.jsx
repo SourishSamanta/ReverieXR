@@ -13,30 +13,30 @@ function Main() {
                     <div className={styles.details}></div>
                     <div className={styles.textHolder}>
                         <div className={styles.headline}>
-                            <motion.div
+                            <div style={{overflow:"hidden"}}><motion.div
                                 initial={{ opacity: 0, y: 100 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5 , delay:0 }}
                                 className={styles.text}
                             >
                                 <h1>EXPLORE THE</h1>
-                            </motion.div>
-                            <motion.div
+                            </motion.div></div>
+                            <div style={{overflow:"hidden"}}><motion.div
                                 initial={{ opacity: 0, y: 100 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5,delay: 0.2 }}
                                 className={styles.text}
                             >
                                 <h1>FUTURE OF</h1>
-                            </motion.div>
-                            <motion.div
+                            </motion.div></div>
+                            <div style={{overflow:"hidden"}}><motion.div
                                 initial={{ opacity: 0, y: 100 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 0.4 }}
                                 className={styles.text}
                             >
                                 <h1>IMMERSIVE ART</h1>
-                            </motion.div>
+                            </motion.div></div>
                         </div>
                         <motion.div 
                             initial={{ opacity: 0, x: -100 }}

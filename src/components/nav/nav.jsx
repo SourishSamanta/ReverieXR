@@ -21,7 +21,7 @@ function Nav() {
                         <li>ABOUT</li>
                     </Link>
 
-                    <li>SUBSCRIPTION</li>
+                    <Link to="/subscription"><li>SUBSCRIPTION</li></Link>
                     <li>CONTACT</li>
                     <Link to="/dashboard">
                         <li>
